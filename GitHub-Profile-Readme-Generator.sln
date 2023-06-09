@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHub-Profile-Readme-Generator", "GitHub-Profile-Readme-Generator\GitHub-Profile-Readme-Generator.csproj", "{19585EA7-B8E3-481B-9F6E-496C5AD6C5D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19585EA7-B8E3-481B-9F6E-496C5AD6C5D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19585EA7-B8E3-481B-9F6E-496C5AD6C5D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19585EA7-B8E3-481B-9F6E-496C5AD6C5D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19585EA7-B8E3-481B-9F6E-496C5AD6C5D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B633D214-2DB3-4E85-ADF2-E9BFE0A5A9CB}
+	EndGlobalSection
+EndGlobal
