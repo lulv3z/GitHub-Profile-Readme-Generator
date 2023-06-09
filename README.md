@@ -39,7 +39,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@derbobbyy169](https://twitter.com/derbobbyy169) - lulv3z.contact@gmail.com
+lulv3z - [@derbobbyy169](https://twitter.com/derbobbyy169) - lulv3z.contact@gmail.com
 
 Project Link: [https://github.com/lulv3z/GitHub-Profile-Readme-Generator](https://github.com/lulv3z/GitHub-Profile-Readme-Generator)
 
