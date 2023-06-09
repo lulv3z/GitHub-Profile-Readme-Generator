@@ -538,9 +538,9 @@
             this.label4.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(3, 11);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(55, 20);
+            this.label4.Size = new System.Drawing.Size(53, 20);
             this.label4.TabIndex = 1;
-            this.label4.Text = "V. 1.0.0";
+            this.label4.Text = "V. 1.0.1";
             this.toolTip.SetToolTip(this.label4, "Current Version");
             // 
             // panel1
