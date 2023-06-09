@@ -13,14 +13,14 @@
   <p align="center">
     A simple Profile Readme Generator written in C# 
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/lulv3z/GitHub-Profile-Readme-Generator"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/lulv3z/GitHub-Profile-Readme-Generator/releases/latest">Download</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://github.com/lulv3z/GitHub-Profile-Readme-Generator/issues">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/lulv3z/GitHub-Profile-Readme-Generator/issues">Request Feature</a>
   </p>
 </div>
 
