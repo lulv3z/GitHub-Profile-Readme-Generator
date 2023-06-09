@@ -18,7 +18,7 @@
     <br />
     <a href="https://github.com/lulv3z/GitHub-Profile-Readme-Generator/releases/latest">Download</a>
     ·
-    <a href="https://github.com/lulv3z/GitHub-Profile-Readme-Generator/CHANGELOG.md">Changelog</a>
+    <a href="https://github.com/lulv3z/GitHub-Profile-Readme-Generator/blob/master/CHANGELOG.md">Changelog</a>
     ·
     <a href="https://github.com/lulv3z/GitHub-Profile-Readme-Generator/issues">Report Bug</a>
     ·
