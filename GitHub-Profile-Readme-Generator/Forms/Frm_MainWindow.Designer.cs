@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_MainWindow));
             this.preTitleTxt = new Guna.UI2.WinForms.Guna2TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -57,8 +58,11 @@
             this.label4 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.gitHubBtn = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.toolTip = new System.Windows.Forms.ToolTip(this.components);
+            this.helpBtn = new Guna.UI2.WinForms.Guna2PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gitHubBtn)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.helpBtn)).BeginInit();
             this.SuspendLayout();
             // 
             // preTitleTxt
@@ -487,6 +491,7 @@
             this.generateBtn.Size = new System.Drawing.Size(180, 45);
             this.generateBtn.TabIndex = 2;
             this.generateBtn.Text = "Generate";
+            this.toolTip.SetToolTip(this.generateBtn, "Generate Readme.md code");
             this.generateBtn.Click += new System.EventHandler(this.generateBtn_Click);
             // 
             // showBtn
@@ -505,6 +510,7 @@
             this.showBtn.Size = new System.Drawing.Size(180, 45);
             this.showBtn.TabIndex = 3;
             this.showBtn.Text = "Show";
+            this.toolTip.SetToolTip(this.showBtn, "Show Readme.md code");
             this.showBtn.Click += new System.EventHandler(this.showBtn_Click);
             // 
             // saveBtn
@@ -523,6 +529,7 @@
             this.saveBtn.Size = new System.Drawing.Size(180, 45);
             this.saveBtn.TabIndex = 3;
             this.saveBtn.Text = "Save";
+            this.toolTip.SetToolTip(this.saveBtn, "Save Readme.md code as .md file");
             this.saveBtn.Click += new System.EventHandler(this.saveBtn_Click);
             // 
             // label4
@@ -534,10 +541,12 @@
             this.label4.Size = new System.Drawing.Size(55, 20);
             this.label4.TabIndex = 1;
             this.label4.Text = "V. 1.0.0";
+            this.toolTip.SetToolTip(this.label4, "Current Version");
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.LightGray;
+            this.panel1.Controls.Add(this.helpBtn);
             this.panel1.Controls.Add(this.gitHubBtn);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
@@ -557,7 +566,22 @@
             this.gitHubBtn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.gitHubBtn.TabIndex = 2;
             this.gitHubBtn.TabStop = false;
+            this.toolTip.SetToolTip(this.gitHubBtn, "Open GitHub Repository");
             this.gitHubBtn.Click += new System.EventHandler(this.gitHubBtn_Click);
+            // 
+            // helpBtn
+            // 
+            this.helpBtn.FillColor = System.Drawing.Color.Transparent;
+            this.helpBtn.Image = ((System.Drawing.Image)(resources.GetObject("helpBtn.Image")));
+            this.helpBtn.ImageRotate = 0F;
+            this.helpBtn.Location = new System.Drawing.Point(1067, 0);
+            this.helpBtn.Name = "helpBtn";
+            this.helpBtn.Size = new System.Drawing.Size(43, 31);
+            this.helpBtn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.helpBtn.TabIndex = 2;
+            this.helpBtn.TabStop = false;
+            this.toolTip.SetToolTip(this.helpBtn, "Bug Report / Feature Request / Help");
+            this.helpBtn.Click += new System.EventHandler(this.helpBtn_Click);
             // 
             // Frm_MainWindow
             // 
@@ -601,6 +625,7 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gitHubBtn)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.helpBtn)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -636,5 +661,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Panel panel1;
         private Guna.UI2.WinForms.Guna2PictureBox gitHubBtn;
+        private Guna.UI2.WinForms.Guna2PictureBox helpBtn;
+        private System.Windows.Forms.ToolTip toolTip;
     }
 }

@@ -139,5 +139,10 @@ namespace GitHub_Profile_Readme_Generator.Forms
         {
             Process.Start("https://github.com/lulv3z/GitHub-Profile-Readme-Generator");
         }
+
+        private void helpBtn_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://github.com/lulv3z/GitHub-Profile-Readme-Generator/issues/new/choose");
+        }
     }
 }
